@@ -6,6 +6,6 @@ public class StringHelperTest {
 
     @Test
     public void test(){
-        fail("Not implemented");
+        fail("Tested develop branch");
     }
 }
