@@ -6,6 +6,11 @@ public class StringHelperTest {
 
     @Test
     public void test(){
-        assertEquals("ABC", "ABC");
+        StringHelper helper = new StringHelper();
+        String actual = helper.truncateAInFirst2Positions("AACB");
+        String expected = "CB";
+
+        assertEquals(expected, actual);
+
     }
 }
